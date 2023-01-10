@@ -120,7 +120,10 @@ align-items: center;
 
   
   @media (max-width: 300px) {
-    
+    body {
+      width: 100;
+    }
+
     .foto-angebotsübersicht-indexseite {
       display: none;
     }
@@ -142,6 +145,11 @@ align-items: center;
     p.p-center {
       font-size: 13px;
     }
+
+      img.navbar-brand {
+      width: 50%;
+      }
+
   }
   
   @media (max-width: 576px) {
@@ -160,13 +168,16 @@ align-items: center;
     h2 {
       font-size: 38px;
       margin: auto;
+      margin-bottom: -20px;
       text-align: center;
     }
 
-    .column-text {
+    p.column-text {
       font-size: 16px;
+      margin: 0 auto;
+      justify-content: center;
       text-align: center;
-    }
+          }
 
     p {
       font-size: 16px;
@@ -175,17 +186,19 @@ align-items: center;
     .btn-light {
       display: block;
       font-size: 15px;
-      margin-bottom: 15px;
-      margin-top: 15px;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 100%;
+      background: var(--primary-color);
+      color: white;
     }
 
     .portrait-bearbeitet {
-      width: 80%;
+      width: 60%;
     }
 
   }
 
-  
   
   @media (min-width: 576px) {
  
@@ -196,6 +209,7 @@ align-items: center;
     a.nav-link.active {
       border-bottom: none;
       }
+
 
     h2 {
       font-size: 45px;
@@ -228,7 +242,7 @@ align-items: center;
 
   @media (min-width: 768px) {
 
-  
+
   }
   
   @media (min-width: 1024px) {
