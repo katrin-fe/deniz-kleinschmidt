@@ -150,6 +150,10 @@ align-items: center;
       width: 50%;
       }
 
+      .hervorheben {
+        font-family: var(--third-font);
+      }
+
   }
   
   @media (max-width: 576px) {
@@ -166,7 +170,7 @@ align-items: center;
     }
 
     h2 {
-      font-size: 38px;
+      font-size: 45px;
       margin: auto;
       margin-bottom: -20px;
       text-align: center;
@@ -189,8 +193,20 @@ align-items: center;
       margin: 0 auto;
       margin-top: 20px;
       width: 100%;
+      border: 0.5px solid var(--primary-color);;
+      color: var(--primary-color);
+    }
+
+    .btn-light:hover
+    {
+      display: block;
+      border: 0.5px solid var(--primary-color);
+      float: right;
+      font-family: var(--secondary-font);
       background: var(--primary-color);
       color: white;
+      margin: 0 auto;
+      margin-top: 20px;
     }
 
     .portrait-bearbeitet {
