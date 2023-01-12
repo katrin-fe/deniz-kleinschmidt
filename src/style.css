@@ -229,6 +229,8 @@ font-family: var(--primary-font);
   font-size: 100px;
   text-align: right;
 }
+
+
   
   @media (max-width: 576px) {
     body {
@@ -236,11 +238,15 @@ font-family: var(--primary-font);
     } 
 
     img.navbar-brand {
-      width: 30%;
+      width: 45%;
     }
 
+    a.nav-link.active {
+      border-bottom: none
+      }
+
     h1 {
-      font-size: 20px;
+      font-size: 18px;
     }
 
     h2 {
@@ -270,7 +276,7 @@ font-family: var(--primary-font);
     }
 
     p, .btn-light, .btn-light-reverse, a {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     p.kürzel-ende {
@@ -278,7 +284,7 @@ font-family: var(--primary-font);
     }
 
     p.footer-text {
-      font-size: 10px;
+      font-size: 16px;
     }
 
     i.fab.fa-linkedin {
@@ -297,10 +303,10 @@ font-family: var(--primary-font);
 
   }
 
+
   
   @media (min-width: 576px) {
  
-
   }
 
 
