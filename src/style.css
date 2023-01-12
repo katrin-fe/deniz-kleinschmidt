@@ -230,7 +230,6 @@ font-family: var(--primary-font);
   text-align: right;
 }
 
-
   
   @media (max-width: 576px) {
     body {
@@ -271,6 +270,7 @@ font-family: var(--primary-font);
       margin-left: 30px;
       margin-right: 30px;
     }
+
     .card {
       margin-bottom: 20px;
     }
@@ -299,6 +299,39 @@ font-family: var(--primary-font);
 
     .column-text-left {
       text-align: center;
+    }
+
+  }
+
+  @media (max-width: 420px) {
+    
+    h1 {
+      font-size: 13px;
+      padding-bottom: 0px;
+    }
+    .btn.btn-light, .btn-light-reverse {
+      margin: 0 auto;
+      font-size: 12px;
+    }
+
+    div.card-body {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    img.card-img-top {
+      width: 500;
+      margin: 0 auto;
+      padding: 0;
+    }
+  
+    p, p.footer-text {
+      font-size: 12px;
+    }
+
+    img.angebots-illustration {
+      width: 200px;
+      margin-top: -30px;
     }
 
   }
