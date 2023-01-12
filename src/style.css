@@ -309,6 +309,14 @@ font-family: var(--primary-font);
       font-size: 13px;
       padding-bottom: 0px;
     }
+
+    .einführungstext {
+      margin: 0 auto;
+      padding-left: 40px;
+      padding-right: 40px;
+
+    }
+
     .btn.btn-light, .btn-light-reverse {
       margin: 0 auto;
       font-size: 12px;
@@ -325,8 +333,8 @@ font-family: var(--primary-font);
       padding: 0;
     }
   
-    p, p.footer-text {
-      font-size: 12px;
+    p, p.footer-text, a {
+      font-size: 14px;
     }
 
     img.angebots-illustration {
