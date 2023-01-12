@@ -319,7 +319,7 @@ font-family: var(--primary-font);
 
     .btn.btn-light, .btn-light-reverse {
       margin: 0 auto;
-      font-size: 12px;
+      font-size: 14px;
     }
 
     div.card-body {
