@@ -2,7 +2,9 @@
   font-family: 'Petra Script';
   src: local('Petra Script EF Alternate');
   src: url('../fonts/petra_script_ef_alternate-webfont.woff2') format('woff2'),
-       url('../fonts/petra_script_ef_alternate-webfont.woff') format('woff');
+       url('../fonts/petra_script_ef_alternate-webfont.woff') format('woff'),
+       url('../fonts/petra_script_ef_alternate-webfont.eot') format('eot'),
+       url('../fonts/petra_script_ef_alternate-webfont.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -35,6 +37,7 @@ h1 {
   padding: 180px 0px 10px 0px;
   font-size: 25px;
   color: var(--primary-color);
+  font-weight: 800;
 }
 
 h2 {
@@ -49,13 +52,6 @@ h2 {
   margin-right: 25px;
 }
 
-h3 {
-  font-size: 20px;
-  color: var(--primary-color);
-  font-family: Montserrat;
-  text-align: left;
-}
-
 nav {
     background: white;
     font-size: 17;
@@ -66,6 +62,7 @@ nav {
 .nav-link {
     color: black !important;
     opacity: 90;
+    font-weight: 800;
     }
 
 .nav-item {
@@ -81,22 +78,26 @@ p {
   font-size: 18px;
   color: black;
   font-family: Montserrat;
+  font-weight: 600;
 }
 
 .p-center {
   text-align: center;
   margin-left: 75px;
   margin-right: 75px;
+  font-weight: 600;
 }
 
 .column-text {
   text-align: left;
   margin-right: 25px;
+  font-weight: 600;
 }
 
 .column-text-left {
   text-align: right;
   margin-right: 25px;
+  font-weight: 600;
 
 }
 img.welcome-image {
@@ -112,6 +113,7 @@ div.background-farbig {
 .einführungstext {
   padding-left: 210px;
   padding-right: 210px;
+  font-weight: 600;
 }
 
 .pfeil {
@@ -131,6 +133,7 @@ div.background-farbig {
   margin-right: 100px;
   margin-left: 100px;
   font-family: Montserrat;
+  font-weight: 600;
   opacity: 100;
 }
 
@@ -149,6 +152,7 @@ div.background-farbig {
   margin-right: 100px;
   margin-left: 100px;
   font-family: Montserrat;
+  font-weight: 600;
   opacity: 100;
   font-size: 17px;
 }
@@ -163,8 +167,9 @@ div.background-farbig {
 a {
   text-decoration: none;
   color: var(--primary-color);
-  font-weight: 500;
   font-size: 17px;
+  font-weight: 900;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -202,6 +207,7 @@ border: none;
 .footer-text {
 text-align: left;
 font-family: Montserrat;
+font-weight: 600;
 }
 
 .kürzel-ende {
