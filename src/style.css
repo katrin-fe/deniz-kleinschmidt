@@ -314,19 +314,72 @@ font-weight: 600;
 
   }
 
-
-  
   @media (min-width: 576px) {
- 
+
+    .einführungstext {
+        padding: 0px;
+      }
+  
+    .column-text-left {
+      text-align: center;
+    }
+
+    p.footer-text {
+      font-size: 12px;
+    }
+
+    .kürzel-ende {
+      font-size: 40px;
+    }
+
+    .network {
+      font-size: 18px;
+    }
+
+    .portrait-bearbeitet {
+      margin-top: 40px;
+    }
   }
 
-
   @media (min-width: 768px) {
+    h1 {
+      font-size: 18px;
+    }
 
+    h2.column-text-left {
+      font-size: 28px;
+    }
+
+    .column-text-left {
+      text-align: left;
+    }
+
+    p.footer-text {
+      font-size: 15px;
+    }
+
+    .btn {
+      margin: 0 auto;
+    }
 
   }
   
   @media (min-width: 992px) {
+    h2.column-text-left {
+      font-size: 38px;
+    }     
+
+    p.footer-text {
+      font-size: 18px;
+    }
+
+    .network {
+      font-size: 25px;
+    }
+
+    .kürzel-ende {
+      font-size: 65px;
+    }
 
   }
   
