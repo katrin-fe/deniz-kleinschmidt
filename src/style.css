@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'Petra Script';
   src: local('Petra Script EF Alternate');
-  src: url('petra_script_ef_alternate-webfont.woff2') format('woff2'),
-       url('petra_script_ef_alternate-webfont.woff') format('woff');
+  src: url('../fonts/petra_script_ef_alternate-webfont.woff2') format('woff2'),
+       url('../fonts/petra_script_ef_alternate-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: local('Montserrat-VariableFont_wght');
-  src: url('montserrat-variablefont_wght-webfont.woff2') format('woff2'),
-       url('montserrat-variablefont_wght-webfont.woff') format('woff');
+  src: local('../fonts/Montserrat-VariableFont_wght');
+  src: url('../fonts/montserrat-variablefont_wght-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-variablefont_wght-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
