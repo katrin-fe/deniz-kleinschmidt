@@ -80,7 +80,7 @@ a.nav-link.active {
 p {
   font-size: 18px;
   color: black;
-  font-family: var(--primary-font)
+  font-family: Montserrat;
 }
 
 .p-center {
@@ -101,11 +101,6 @@ p {
 }
 img.welcome-image {
   width: 100%;
-}
-
-.unterbrechung {
-  font-family: var(--third-font);
-  font-size: 40px;
 }
 
 div.background-farbig {
@@ -135,15 +130,13 @@ div.background-farbig {
   float: center;
   margin-right: 100px;
   margin-left: 100px;
-  font-family: var(--primary-font);
+  font-family: Montserrat;
   opacity: 100;
 }
 
 .btn-light:hover
 {
   border: 2px solid var(--primary-color);
-  float: center;
-  font-family: var(--primary-font);
   background: var(--primary-color);
   color: white;
 }
@@ -155,7 +148,7 @@ div.background-farbig {
   float: center;
   margin-right: 100px;
   margin-left: 100px;
-  font-family: var(--primary-font);
+  font-family: Montserrat;
   opacity: 100;
   font-size: 17px;
 }
@@ -163,10 +156,6 @@ div.background-farbig {
 .btn-light-reverse:hover {
   background-color: var(--secondary-color);
   border:1.5px solid var(--secondary-color);
-  float: center;
-  margin-right: 100px;
-  margin-left: 100px;
-  font-family: var(--primary-font);
   opacity: 100;
   font-size: 17px;
 }
@@ -193,15 +182,9 @@ align-items: left;
 .card {
 border: none;
 }
-  
-.hervorheben {
-  font-family: var(--secondary-font);
-  font-size: 40px;
-}
 
 .network {
   color: black;
-  font-family: var(--secondary-font);
   text-align: center;
   font-size: 30px;
   text-decoration: none;
@@ -218,11 +201,11 @@ border: none;
 
 .footer-text {
 text-align: left;
-font-family: var(--primary-font);
+font-family: Montserrat;
 }
 
 .kürzel-ende {
-  font-family: var(--secondary-font);
+  font-family: Petra Script;
   font-size: 100px;
   text-align: right;
 }
