@@ -200,6 +200,11 @@ font-weight: 600;
   margin-top: 50px;
 }
 
+.partner {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
   @media (max-width: 576px) {
     body {
       width: 100;
@@ -269,6 +274,11 @@ font-weight: 600;
       text-align: center;
     }
 
+    .partner {
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+
   }
 
   @media (max-width: 420px) {
@@ -315,12 +325,18 @@ font-weight: 600;
       margin-top: -30px;
     }
 
+    .partner {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
   }
 
   @media (min-width: 576px) {
 
     .einführungstext {
         padding: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
       }
   
     .column-text-left {
@@ -328,7 +344,7 @@ font-weight: 600;
     }
 
     p.footer-text {
-      font-size: 12px;
+      font-size: 13px;
     }
 
     .kürzel-ende {
@@ -341,6 +357,11 @@ font-weight: 600;
 
     .portrait-bearbeitet {
       margin-top: 40px;
+    }
+
+    .partner {
+      margin: 0;
+      padding: 0;
     }
   }
 
@@ -363,6 +384,11 @@ font-weight: 600;
 
     .btn {
       margin: 0 auto;
+    }
+
+    .partner {
+      padding-left: 50px;
+      padding-right: 50px;
     }
 
   }
