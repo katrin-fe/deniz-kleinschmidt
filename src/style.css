@@ -214,9 +214,9 @@ font-weight: 600;
   font-family: Petra Script;
   font-size: 100px;
   text-align: right;
+  font-weight: 100;
 }
 
-  
   @media (max-width: 576px) {
     body {
       width: 100;
@@ -235,8 +235,7 @@ font-weight: 600;
     }
 
     h2 {
-      color: black;
-      font-size: 30px;
+      font-size: 35px;
     }
 
     img.welcome-image {
@@ -273,7 +272,7 @@ font-weight: 600;
       font-size: 16px;
     }
 
-    i.fab.fa-linkedin {
+    .network {
       font-size: 15px;
     }
 
@@ -292,7 +291,12 @@ font-weight: 600;
   @media (max-width: 420px) {
     
     h1 {
-      font-size: 16px;
+      font-size: 22px;
+      padding-bottom: 0px;
+    }
+
+    h2 {
+      font-size: 30px;
       padding-bottom: 0px;
     }
 
@@ -320,7 +324,7 @@ font-weight: 600;
     }
   
     p, p.footer-text, a {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     img.angebots-illustration {
