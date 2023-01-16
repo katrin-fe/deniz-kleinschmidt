@@ -213,6 +213,11 @@ font-weight: 600;
   padding-right: 50px;
 }
 
+.berufliche-station {
+  text-align: left;
+  color: white;
+}
+
   @media (max-width: 576px) {
     body {
       width: 100;
