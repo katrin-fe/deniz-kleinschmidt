@@ -291,6 +291,7 @@ font-weight: 600;
     .partner {
       padding-left: 150px;
       padding-right: 150px;
+      width: 50%;
     }
 
     .haken {
@@ -351,6 +352,7 @@ font-weight: 600;
     .partner {
       padding-left: 50px;
       padding-right: 50px;
+      width: 50%;
     }
   }
 
