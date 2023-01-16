@@ -237,6 +237,7 @@ font-weight: 600;
 
     h2 {
       font-size: 35px;
+      text-align: center;
     }
 
     img.welcome-image {
@@ -290,6 +291,15 @@ font-weight: 600;
     .partner {
       padding-left: 150px;
       padding-right: 150px;
+    }
+
+    .haken {
+      padding-bottom: 10px;
+      margin: 0 auto; 
+    }
+
+    .berufliche-station {
+      padding-left: 35px;
     }
 
   }
