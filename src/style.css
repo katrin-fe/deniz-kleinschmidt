@@ -218,6 +218,10 @@ font-weight: 600;
   color: white;
 }
 
+.assessment-card {
+  padding-top: 150px;
+}
+
   @media (max-width: 576px) {
     body {
       width: 100;
