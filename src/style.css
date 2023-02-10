@@ -32,19 +32,50 @@ body {
     padding-top: 110px;
   }
 
+  p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+    color: black;
+    font-weight: 600;
+  }
+
+  p.text-bulletpoint {
+    text-align: left;   
+    margin: 0px;
+    padding: 5px;
+  }
+
 h1 {
   margin-top: -140px;
   padding: 180px 0px 10px 0px;
-  font-size: 25px;
+  font-size: 30px;
   color: var(--primary-color);
   font-weight: 800;
 }
 
+.h1-home {
+  font-size: 30px;
+}
+
+.h1-angebot {
+  font-size: 35px;
+}
+
+.header {
+  background-image: url("https://www.datocms-assets.com/43182/1640855317-location-1-1.png?auto=format&dpr=1.5&fit=crop&h=750&w=1500");
+  background-size: cover;
+  padding-top: 15px;
+  padding-bottom: 300px;
+  margin-bottom: -17px;
+}
+
 h2 {
-  font-size: 40px;
-  font-family: Petra Script;
+  font-size: 45px;
   color: var(--primary-color);
-  text-align: left;
+  text-align: center;
+  font-family: Petra Script;
+  padding-bottom: 0px;
 }
 
 .h2-left {
@@ -55,6 +86,13 @@ h2 {
 .h2-angebot {
   text-align: center;
   font-size: 45px;
+  font-family: "Petra Script";
+}
+
+h3 {
+  font-size: 45px;
+  text-align: center;
+  font-family: Petra Script;
 }
 
 nav {
@@ -83,12 +121,7 @@ a.nav-link.active {
   width: 250px;
 }
 
-p {
-  font-size: 18px;
-  color: black;
-  font-family: Montserrat;
-  font-weight: 600;
-}
+
 
 .p-center {
   text-align: center;
@@ -115,7 +148,7 @@ img.welcome-image {
 
 div.background-farbig {
   background-color: var(--secondary-color);
-  margin-top: 80px;
+  margin-top: 0px;
   padding: 50px;
 }
 
@@ -199,6 +232,7 @@ font-weight: 600;
 
 .kürzel-ende {
   font-family: Petra Script;
+
   font-size: 120px;
   text-align: right;
   font-weight: 100;
@@ -243,6 +277,7 @@ font-weight: 600;
       font-size: 35px;
       text-align: center;
     }
+
 
     img.welcome-image {
       width: 100%;
@@ -299,7 +334,6 @@ font-weight: 600;
     }
 
     .haken {
-      padding-bottom: 10px;
       margin: 0 auto; 
     }
 
