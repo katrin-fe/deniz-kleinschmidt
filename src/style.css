@@ -121,8 +121,6 @@ a.nav-link.active {
   width: 250px;
 }
 
-
-
 .p-center {
   text-align: center;
   margin-left: 75px;
@@ -278,6 +276,10 @@ font-weight: 600;
       text-align: center;
     }
 
+    p {
+      padding: 10px 0px 10px 0px;
+
+    }
 
     img.welcome-image {
       width: 100%;
@@ -335,6 +337,7 @@ font-weight: 600;
 
     .haken {
       margin: 0 auto; 
+      padding-right: 10px;
     }
 
     .berufliche-station {
