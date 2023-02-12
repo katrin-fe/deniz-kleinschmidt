@@ -56,6 +56,7 @@ h1 {
 
 .h1-home {
   font-size: 30px;
+  color: white;
 }
 
 .h1-angebot {
@@ -63,7 +64,7 @@ h1 {
 }
 
 .header {
-  background-image: url("https://www.datocms-assets.com/43182/1640855317-location-1-1.png?auto=format&dpr=1.5&fit=crop&h=750&w=1500");
+  background: url("/img/Wepractice Home bearbeitet.jpg");
   background-size: cover;
   padding-top: 15px;
   padding-bottom: 300px;
@@ -71,8 +72,8 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
-  color: var(--primary-color);
+  font-size: 60px;
+  color: white;
   text-align: center;
   font-family: Petra Script;
   padding-bottom: 0px;
@@ -108,18 +109,18 @@ nav {
     font-weight: 800;
     }
 
-.nav-item {
-    margin-left: 5px;
-    margin-right: 5px;
-    }
-
-a.nav-link.active {
-    border-bottom: 1.5px solid var(--primary-color); 
-    }
-
-.navbar-brand {
-  width: 250px;
-}
+    .nav-item {
+      margin-left: 5px;
+      margin-right: 5px;
+      }
+  
+  a.nav-link.active {
+      border-bottom: 1.5px solid var(--primary-color); 
+      }
+  
+  .navbar-brand {
+    width: 250px;
+  }
 
 .p-center {
   text-align: center;
