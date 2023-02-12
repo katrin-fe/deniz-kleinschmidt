@@ -260,6 +260,10 @@ div.gallery-wrapper {
 
 
   @media (max-width: 576px) {
+   .gallery-ausblenden {
+    display: none;
+  } 
+   
     body {
       width: 100;
     } 
