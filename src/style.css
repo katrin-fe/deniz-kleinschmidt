@@ -49,7 +49,7 @@ p.text-bulletpoint {
 h1 {
   margin-top: -140px;
   padding: 180px 0px 10px 0px;
-  font-size: 30px;
+  font-size: 40px;
   color: var(--primary-color);
   font-weight: 800;
   color: white;
@@ -66,6 +66,14 @@ h2 {
 
 .h1-uebermich {
   text-align: center;
+}
+
+.h1-angebot 
+{
+  font-size: 35px;
+  text-align: center;
+  color: black;
+   margin-top: -150px;
 }
 
 .header {
@@ -297,6 +305,13 @@ div.gallery-wrapper {
         padding-right: 10px;
         text-align: right;
       }
+
+      .h1-angebot {
+      font-size: 22px;
+      text-align: center;
+      color: black;
+    }
+
     p {
       padding: 10px 0px 10px 0px;
 
@@ -308,7 +323,7 @@ div.gallery-wrapper {
 
     img.angebots-illustration {
       width: 250px;
-      margin-top: -40px;
+      margin-top: -30px;
     }
 
     .einführungstext {
@@ -456,7 +471,12 @@ div.gallery-wrapper {
 
   @media (min-width: 768px) {
     h1 {
-      font-size: 18px;
+      font-size: 30px;
+    }
+
+    h2 
+    {
+      font-size: 70px;
     }
 
     h2.column-text-left {
