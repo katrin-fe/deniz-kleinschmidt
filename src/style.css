@@ -381,6 +381,8 @@ div.gallery-wrapper {
     h2 {
       font-size: 35px;
       padding-bottom: 0px;
+      margin-left: 0px;
+      padding-right: 0px;
     }
 
     .einführungstext {
