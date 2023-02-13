@@ -52,15 +52,21 @@ h1 {
   font-size: 30px;
   color: var(--primary-color);
   font-weight: 800;
-}
-
-.h1-home {
-  font-size: 30px;
   color: white;
+  text-align: center;
 }
 
-.h1-angebot {
-  font-size: 35px;
+h2 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-family: Petra Script;
+  padding-bottom: 0px;
+}
+
+
+.h1-uebermich {
+  text-align: center;
 }
 
 .header {
@@ -74,15 +80,8 @@ h1 {
 
 }
 
-h2 {
-  font-size: 60px;
-  color: white;
-  text-align: center;
-  font-family: Petra Script;
-  padding-bottom: 0px;
-}
 
-.h2-uebermich {
+.h2-unterseite {
   color: var(--primary-color);
   text-align: center;
 }
@@ -285,22 +284,20 @@ div.gallery-wrapper {
       border-bottom: none
       }
 
-    .h1-home {
-      font-size: 22px; 
-      margin-top: -155px;
-      padding-right: 20px;
-      text-align: right;
-    }
-
-    h2 {
-      font-size: 45px;
-      text-align: center;
-      margin-top: -10px;
-      padding-right: 20px;
-      text-align: right;
-      
-    }
-
+      h1 {
+        font-size: 22px;
+        padding-bottom: 0px;
+        text-align: right;
+        padding-right: 10px;
+      }
+  
+      h2 {
+        font-size: 45px;
+        padding-bottom: 0px;
+        margin-left: 0px;
+        padding-right: 10px;
+        text-align: right;
+      }
     p {
       padding: 10px 0px 10px 0px;
 
@@ -376,13 +373,16 @@ div.gallery-wrapper {
     h1 {
       font-size: 22px;
       padding-bottom: 0px;
+      text-align: right;
+      padding-right: 10px;
     }
 
     h2 {
       font-size: 35px;
       padding-bottom: 0px;
       margin-left: 0px;
-      padding-right: 0px;
+      padding-right: 10px;
+      text-align: right;
     }
 
     .einführungstext {
@@ -407,7 +407,6 @@ div.gallery-wrapper {
       padding: 0;
     }
   
-
     img.angebots-illustration {
       width: 200px;
       margin-top: -30px;
