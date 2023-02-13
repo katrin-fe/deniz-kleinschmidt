@@ -64,7 +64,6 @@ h2 {
   padding-bottom: 0px;
 }
 
-
 .h1-uebermich {
   text-align: center;
 }
@@ -234,11 +233,11 @@ border: none;
 text-align: left;
 font-family: Montserrat;
 font-weight: 600;
+padding: 0px;
 }
 
 .kürzel-ende {
   font-family: Petra Script;
-
   font-size: 120px;
   text-align: right;
   font-weight: 100;
@@ -331,6 +330,7 @@ div.gallery-wrapper {
 
     p.kürzel-ende {
       font-size: 60px;
+      display: none;
     }
 
     p.footer-text {
@@ -435,8 +435,9 @@ div.gallery-wrapper {
       font-size: 13px;
     }
 
-    .kürzel-ende {
+    p.kürzel-ende {
       font-size: 40px;
+      display: none;
     }
 
     .network {
@@ -494,8 +495,9 @@ div.gallery-wrapper {
       font-size: 25px;
     }
 
-    .kürzel-ende {
-      font-size: 65 px;
+    p.kürzel-ende {
+      font-size: 65px;
+      display: none;
     }
 
   }
