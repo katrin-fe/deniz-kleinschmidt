@@ -47,7 +47,7 @@ p.text-bulletpoint {
 }
 
 h1 {
-  margin-top: -140px;
+  margin-top: -550px;
   padding: 180px 0px 10px 0px;
   font-size: 40px;
   color: var(--primary-color);
@@ -61,7 +61,7 @@ h2 {
   color: white;
   text-align: center;
   font-family: Petra Script;
-  padding-bottom: 0px;
+  padding-bottom: 220px;
 }
 
 .h1-uebermich {
@@ -294,8 +294,9 @@ div.gallery-wrapper {
       h1 {
         font-size: 22px;
         padding-bottom: 0px;
-        text-align: right;
+        text-align: center;
         padding-right: 10px;
+        margin-top: -365px;
       }
   
       h2 {
@@ -303,13 +304,17 @@ div.gallery-wrapper {
         padding-bottom: 0px;
         margin-left: 0px;
         padding-right: 10px;
-        text-align: right;
+        text-align: center;
       }
 
       .h1-angebot {
       font-size: 22px;
       text-align: center;
       color: black;
+    }
+
+    p.p-home-under-header {
+      padding: 60px 20px 10px 20px;
     }
 
     p {
@@ -386,18 +391,28 @@ div.gallery-wrapper {
   @media (max-width: 420px) {
     
     h1 {
-      font-size: 22px;
+      font-size: 20px;
       padding-bottom: 0px;
-      text-align: right;
-      padding-right: 10px;
+      text-align: center;
+      padding-top: 220px;
     }
 
     h2 {
-      font-size: 35px;
-      padding-bottom: 0px;
+      font-size: 40px;
+      padding-bottom: px;
       margin-left: 0px;
-      padding-right: 10px;
-      text-align: right;
+      text-align: center;
+      font-weight: 550;
+      color: var(--primary-color);
+      margin-top: -15px;
+  
+    }
+
+    p.p-home-under-header {
+      padding: 45px 10px 10px 10px;
+      margin-left: 0px;
+      text-align: center;
+     
     }
 
     .einführungstext {
@@ -434,8 +449,49 @@ div.gallery-wrapper {
     }
   }
 
+  @media (max-width: 280px) {
+    
+    h1 {
+      font-size: 18px;
+      padding-bottom: 0px;
+      text-align: center;
+      padding-top: 260px;
+    }
+
+    h2 {
+      font-size: 35px;
+      padding-bottom: px;
+      margin-left: 0px;
+      text-align: center;
+      font-weight: 550;
+      color: white; 
+  
+    }
+
+    p.p-home-under-header {
+      padding: 35px 10px 10px 10px;
+      margin-left: 0px;
+      text-align: center;
+     
+    }
+  }
+
   @media (min-width: 576px) {
 
+
+    h1 {
+      font-size: 28px;
+      margin-top: -420px;
+    }
+
+    h2 
+    {
+      font-size: 55px;
+    }
+
+    p.p-home-under-header {
+      padding: 90px 20px 10px 20px;
+    }
     .einführungstext {
         padding: 0px;
         margin-left: 50px;
@@ -470,13 +526,22 @@ div.gallery-wrapper {
   }
 
   @media (min-width: 768px) {
+   
+   
     h1 {
       font-size: 30px;
+      margin-top: -490px;
     }
 
     h2 
     {
       font-size: 70px;
+      margin-bottom: 0px;
+      padding-bottom: 150px;
+    }
+
+    p.p-home-under-header {
+      padding: 0px 20px 10px 20px;
     }
 
     h2.column-text-left {
@@ -503,6 +568,15 @@ div.gallery-wrapper {
   }
   
   @media (min-width: 992px) {
+   
+    h1 {
+      margin-top: -530px;
+    }
+
+    p.p-home-under-header {
+      padding: 90px 20px 10px 20px;
+    }
+
     h2.column-text-left {
       font-size: 38px;
     }     
@@ -522,3 +596,18 @@ div.gallery-wrapper {
 
   }
   
+  @media (min-width: 992px) {
+   
+    h1 {
+      margin-top: -630px;
+      font-size: 40px;
+    }
+
+    h2 {
+      font-size: 90px;
+    }
+
+    p.p-home-under-header {
+      padding: 120px 40px 10px 40px;
+    }
+  }
