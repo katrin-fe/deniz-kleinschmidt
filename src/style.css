@@ -64,12 +64,18 @@ h2 {
   padding-bottom: 220px;
 }
 
-.h1-angebot 
+.h1-kontakt 
 {
-  font-size: 35px;
+  font-size: 25px;
   text-align: center;
   color: black;
-   margin-top: -150px;
+  margin-top: -140px;
+}
+
+.h2-kontakt {
+  text-align: center;
+  color: var(--primary-color);
+  padding-bottom: 30px;
 }
 
 .header {
@@ -638,6 +644,7 @@ div.gallery-wrapper {
 
     h2.h2-uebermich {
       text-align: left; 
+      font-size: 55px;
     }
 
     .p-left {
