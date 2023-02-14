@@ -48,7 +48,7 @@ p.text-bulletpoint {
 
 h1 {
   margin-top: -550px;
-  padding: 180px 0px 10px 0px;
+  padding: 180px 0px 0px 0px;
   font-size: 40px;
   color: var(--primary-color);
   font-weight: 800;
@@ -416,7 +416,7 @@ div.gallery-wrapper {
     }
 
     h2 {
-      font-size: 40px;
+      font-size: 38px;
       padding-bottom: px;
       margin-left: 0px;
       text-align: center;
@@ -526,6 +526,7 @@ div.gallery-wrapper {
       font-size: 55px;
     }
 
+
     p.p-home-under-header {
       padding: 90px 20px 10px 20px;
     }
@@ -570,23 +571,30 @@ div.gallery-wrapper {
       margin-top: -490px;
     }
 
-    h2 
-    {
+    h2     {
       font-size: 70px;
       margin-bottom: 0px;
       padding-bottom: 150px;
     }
 
     h1.h1-uebermich {
-      padding-top: 550px;
+      padding-top: 535px;
+      text-align: left;
+      font-size: 24px;  
     }
 
     h2.h2-uebermich {
       color: var(--primary-color);
+      text-align: left;
+      font-size: 35px;
     }
 
     p.p-home-under-header {
       padding: 0px 20px 10px 20px;
+    }
+
+    p.p-left {
+      text-align: left;
     }
 
     h2.column-text-left {
@@ -611,15 +619,33 @@ div.gallery-wrapper {
     }
 
   }
+
   
   @media (min-width: 992px) {
    
     h1 {
-      margin-top: -530px;
+      margin-top: -510px;
+      font-size: 40px;
+    }
+
+    h2 {
+      font-size: 90px;
+    }
+
+    h1.h1-uebermich {
+      text-align: left; 
+    }
+
+    h2.h2-uebermich {
+      text-align: left; 
+    }
+
+    .p-left {
+      text-align: left;
     }
 
     p.p-home-under-header {
-      padding: 90px 20px 10px 20px;
+      padding: 120px 40px 10px 40px;
     }
 
     h2.column-text-left {
@@ -639,20 +665,4 @@ div.gallery-wrapper {
       display: none;
     }
 
-  }
-  
-  @media (min-width: 992px) {
-   
-    h1 {
-      margin-top: -510px;
-      font-size: 40px;
-    }
-
-    h2 {
-      font-size: 90px;
-    }
-
-    p.p-home-under-header {
-      padding: 120px 40px 10px 40px;
-    }
   }
