@@ -596,7 +596,7 @@ div.gallery-wrapper {
     }
 
     h1.h1-uebermich {
-      padding-top: 535px;
+      padding-top: 735px;
       text-align: left;
       font-size: 24px;  
     }
@@ -605,6 +605,7 @@ div.gallery-wrapper {
       color: var(--primary-color);
       text-align: left;
       font-size: 35px;
+      padding-top: 35px;
     }
 
     p.p-home-under-header {
