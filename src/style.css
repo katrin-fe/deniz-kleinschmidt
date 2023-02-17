@@ -83,6 +83,10 @@ p.p-under-header {
   margin: 0 auto;
 }
 
+.angebot-headerbild {
+  opacity: 60%;
+}
+
 .container-header {
   position: relative;
 }
