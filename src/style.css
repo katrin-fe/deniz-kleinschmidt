@@ -47,48 +47,45 @@ p.text-bulletpoint {
 }
 
 h1 {
-  margin-top: -550px;
-  padding: 180px 0px 0px 0px;
-  font-size: 40px;
-  color: var(--primary-color);
-  font-weight: 800;
+  position: absolute;
+  top: 40px;
   color: white;
+  font-size: 40px;
+  width: 100%;
   text-align: center;
+  font-weight: 800;
 }
 
 h2 {
-  font-size: 60px;
+  position: absolute;
+  top: 100px;
   color: white;
+  font-size: 80px;
+  width: 100%;
   text-align: center;
   font-family: Petra Script;
-  padding-bottom: 220px;
-}
+} 
 
-.h1-kontakt 
-{
-  font-size: 25px;
-  text-align: center;
-  color: black;
-  margin-top: -140px;
+.h1-kontakt {
+  padding-top: 25px;
+  font-size: 27px;
+  position: static;
 }
 
 .h2-kontakt {
-  text-align: center;
-  color: var(--primary-color);
-  padding-bottom: 30px;
+  position: static;
+  font-size: 55px;
+  margin-bottom: 20px;
 }
 
-.header {
-  background: url("/img/Wepractice Home ohne Taschentücher.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 240px;
-  margin-bottom: -17px;
-
+p.p-under-header {
+  padding: 30px 40px 30px 40px;
+  margin: 0 auto;
 }
 
+.container-header {
+  position: relative;
+}
 
 h1.h1-uebermich {
   text-align: center;
@@ -133,45 +130,45 @@ nav {
   }
 
 .nav-link {
-    color: black !important;
-    opacity: 90;
-    font-weight: 800;
-    }
-
-    .nav-item {
-      margin-left: 5px;
-      margin-right: 5px;
-      }
-  
-  a.nav-link.active {
-      border-bottom: 1.5px solid var(--primary-color); 
-      }
-  
-  .navbar-brand {
-    width: 250px;
+  color: black !important;
+  opacity: 90;
+  font-weight: 800;
   }
 
+  .nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+a.nav-link.active {
+    border-bottom: 1.5px solid var(--primary-color); 
+    }
+
+.navbar-brand {
+  width: 250px;
+}
+
 .p-center {
-  text-align: center;
-  margin-left: 75px;
-  margin-right: 75px;
-  font-weight: 600;
+text-align: center;
+margin-left: 75px;
+margin-right: 75px;
+font-weight: 600;
 }
 
 .column-text {
-  text-align: left;
-  margin-right: 25px;
-  font-weight: 600;
+text-align: left;
+margin-right: 25px;
+font-weight: 600;
 }
 
 .column-text-left {
-  text-align: right;
-  margin-right: 25px;
-  font-weight: 600;
+text-align: right;
+margin-right: 25px;
+font-weight: 600;
 
 }
 img.welcome-image {
-  width: 100%;
+width: 100%;
 }
 
 div.background-farbig {
@@ -192,7 +189,7 @@ div.background-farbig {
 }
 
 .angebots-illustration {
-  margin-top: -55px;
+  margin-top: 30px;
 }
 
 .btn-light
@@ -288,225 +285,22 @@ div.gallery-wrapper {
   margin: 0px 20px;
 }
 
+@media (max-width: 280px) {
 
-  @media (max-width: 576px) {
-   .gallery-ausblenden {
-    display: none;
-  } 
-   
-    body {
-      width: 100;
-    } 
-
-    img.navbar-brand {
-      width: 45%;
+  h1 {
+    font-size: 14px;
+    top: 9%;
     }
-
-    a.nav-link.active {
-      border-bottom: none
-      }
-
-      h1 {
-        font-size: 22px;
-        padding-bottom: 0px;
-        text-align: center;
-        padding-right: 10px;
-        margin-top: -390px;
-      }
-  
-      h2 {
-        font-size: 50px;
-        padding-bottom: 80px;
-        margin-left: 0px;
-        padding-right: 10px;
-        text-align: center;
-      }
-
-      h1.h1-uebermich {
-        padding-top: 400px;
-      }
-
-      h2.h2-uebermich {
-        font-size:45px;
-        color: var(--primary-color);
-      }
-
-      .h1-angebot {
-      font-size: 22px;
-      text-align: center;
-      color: black;
-    }
-
-    p.p-home-under-header {
-      padding: 60px 20px 10px 20px;
-    }
-
-    p {
-      padding: 10px 0px 10px 0px;
-
-    }
-
-    img.welcome-image {
-      width: 100%;
-    }
-
-    img.angebots-illustration {
-      width: 250px;
-      margin-top: -30px;
-    }
-
-    .einführungstext {
-      padding: 0px;
-    }
-
-    div.card-body {
-      margin-left: 30px;
-      margin-right: 30px;
-    }
-
-    .card {
-      margin-bottom: 20px;
-    }
-
-    p, .btn-light, .btn-light-reverse, a {
-      font-size: 16px;
-    }
-
-    p.kürzel-ende {
-      font-size: 60px;
-      display: none;
-    }
-
-    p.footer-text {
-      font-size: 16px;
-    }
-
-    .network {
-      font-size: 22px;
-    }
-
-    img.portrait-bearbeitet {
-      margin: 0 auto;
-      width: 60%;
-      margin-top: 35px;
-    }
-
-    .column-text-left {
-      text-align: center;
-    }
-
-    .partner {
-      padding-left: 150px;
-      padding-right: 150px;
-      width: 50%;
-    }
-
-    .haken {
-      margin: 0 auto; 
-      padding-right: 10px;
-    }
-
-    .berufliche-station {
-      padding-left: 35px;
-    }
-
+    
+  h2 {
+  font-size: 25px;
+  top: 27%;
   }
 
-  @media (max-width: 420px) {
-    
-    h1 {
-      font-size: 20px;
-      padding-bottom: 0px;
-      text-align: center;
-      padding-top: 237px;
-    }
-
-    h2 {
-      font-size: 40px;
-      padding-bottom: 65px;
-      margin-left: 0px;
-      text-align: center;
-      font-weight: 550;
-      margin-top: -10px;  
-    }
-
-    h1.h1-uebermich {
-      padding-top: 400px;
-      font-size: 20px;
-    }
-
-    h2.h2-uebermich {
-      font-size: 37px;
-      padding-top: 10px;
-    }
-
-    h1.h1-kontakt {
-      font-size: 16px;
-    }
-
-    h2.h2-kontakt {
-      font-size: 33px;
-    }
-
-    p.p-home-under-header {
-      padding: 45px 10px 10px 10px;
-      margin-left: 0px;
-      text-align: center;
-     
-    }
-
-    .einführungstext {
-      margin: 0 auto;
-      padding-left: 40px;
-      padding-right: 40px;
-
-    }
-
-    .btn.btn-light {
-      margin: 0 auto;
-    }
-
-    div.card-body {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  
-    img.card-img-top {
-      width: 500;
-      margin: 0 auto;
-      padding: 0;
-    }
-  
-    img.angebots-illustration {
-      width: 200px;
-      margin-top: -30px;
-    }
-
-    .partner {
-      padding-left: 50px;
-      padding-right: 50px;
-      width: 50%;
-    }
+  .angebots-illustration {
+    width: 120px;
+    margin-top: 20px;
   }
-
-  @media (max-width: 280px) {
-    
-    h1 {
-      font-size: 18px;
-      padding-bottom: 0px;
-      text-align: center;
-      padding-top: 270px;
-    }
-
-    h2 {
-      font-size: 35px;
-      padding-bottom: px;
-      margin-left: 0px;
-      text-align: center;
-      font-weight: 550;
-      color: white; 
-  
-    }
 
     h1.h1-uebermich {
       font-size: 16px;
@@ -516,80 +310,191 @@ div.gallery-wrapper {
       color: var(--primary-color);
       font-size: 34px;
     }
-
-    p.p-home-under-header {
-      padding: 35px 10px 10px 10px;
-      margin-left: 0px;
-      text-align: center;
-     
-    }
   }
 
-  @media (min-width: 576px) {
-
-
+@media (max-width: 420px) {
+    
     h1 {
-      font-size: 28px;
-      margin-top: -420px;
+      font-size: 20px;
+      top: 8%;
+      }
+      
+    h2 {
+    font-size: 39px;
+    top: 24%;
     }
-
-    h2 
-    {
-      font-size: 55px;
-      margin-top: 5px;
-      padding-bottom: 150px;
-      margin-bottom: 0px;
+  
+    .angebots-illustration {
+      width: 150px;
     }
-
-    p.p-home-under-header {
-      padding: 0px 20px 10px 20px;
-    }
-    .einführungstext {
-        padding: 0px;
-        margin-left: 50px;
-        margin-right: 50px;
+  
+      h1.h1-uebermich {
+        padding-top: 400px;
+        font-size: 20px;
       }
   
-    .column-text-left {
-      text-align: center;
-    }
+      h2.h2-uebermich {
+        font-size: 37px;
+        padding-top: 10px;
+      }
 
-    p.footer-text {
-      font-size: 13px;
-    }
+      .einführungstext {
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+  
+      }
+  
+      .btn.btn-light {
+        margin: 0 auto;
+      }
+  
+      div.card-body {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    
+      img.card-img-top {
+        width: 500;
+        margin: 0 auto;
+        padding: 0;
+      }
+  
+      .partner {
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 50%;
+      }
+  }
+  
+@media (max-width: 576px) {
 
-    p.kürzel-ende {
-      font-size: 40px;
-      display: none;
-    }
-
-    .network {
-      font-size: 18px;
-    }
-
-    .portrait-bearbeitet {
-      margin-top: 40px;
-    }
-
-    .partner {
-      margin: 0;
-      padding: 0;
-    }
+  h1 {
+  font-size: 20px;
+  top: 10%;
+  }
+  
+  h2 {
+  font-size: 40px;
+  top: 22%;
   }
 
-  @media (min-width: 768px) {
-   
-    h1 {
-      font-size: 30px;
-      margin-top: -520px;
+  .angebots-illustration {
+    width: 180px;
+  }
+
+  .gallery-ausblenden {
+  display: none;
+  } 
+    
+  body {
+    width: 100;
+  } 
+
+  img.navbar-brand {
+    width: 45%;
+  }
+
+  a.nav-link.active {
+    border-bottom: none
     }
 
-    h2     {
-      font-size: 70px;
-      margin-bottom: 0px;
-      padding-bottom: 270px;
-      margin-top: -20px;
+  h1.h1-uebermich {
+    padding-top: 400px;
+  }
+
+  h2.h2-uebermich {
+    font-size:45px;
+    color: var(--primary-color);
+  }
+
+  .h1-angebot {
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  }
+
+  p {
+    padding: 10px 0px 10px 0px;
+
+  }
+
+  img.welcome-image {
+    width: 100%;
+  }
+
+  .einführungstext {
+    padding: 0px;
+  }
+
+  div.card-body {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  p, .btn-light, .btn-light-reverse, a {
+    font-size: 16px;
+  }
+
+  p.kürzel-ende {
+    font-size: 60px;
+    display: none;
+  }
+
+  p.footer-text {
+    font-size: 16px;
+  }
+
+  .network {
+    font-size: 22px;
+  }
+
+  img.portrait-bearbeitet {
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 35px;
+  }
+
+  .column-text-left {
+    text-align: center;
+  }
+
+  .partner {
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 50%;
+  }
+
+  .haken {
+    margin: 0 auto; 
+    padding-right: 10px;
+  }
+
+  .berufliche-station {
+    padding-left: 35px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  
+  h1 {
+    font-size: 30px;
+    top: 10%;
     }
+    
+  h2 {
+  font-size: 60px;
+  top: 22%;
+  }
+
+  .angebots-illustration {
+    width: 220px;
+  }
 
     p {
       padding-top: 0px;
@@ -606,10 +511,6 @@ div.gallery-wrapper {
       text-align: left;
       font-size: 35px;
       padding-top: 35px;
-    }
-
-    p.p-home-under-header {
-      padding: 0px 20px 10px 20px;
     }
 
     p.p-left {
@@ -639,18 +540,20 @@ div.gallery-wrapper {
 
   }
 
-  @media (min-width: 992px) {
-   
-    h1 {
-      margin-top: -650px;
-      font-size: 40px;
+@media (min-width: 992px) {
+  h1 {
+    font-size: 40px;
+    top: 10%;
     }
+      
+  h2 {
+  font-size: 80px;
+  top: 22%;
+  }
 
-    h2 {
-      font-size: 90px;
-      margin-top: -25px;
-      padding-bottom: 400px;
-    }
+  .angebots-illustration {
+    width: 270px;
+  }
 
     h1.h1-uebermich {
       text-align: left; 
@@ -684,18 +587,21 @@ div.gallery-wrapper {
 
   }
 
-  @media (min-width: 1024px) {
+@media (min-width: 1024px) {
    
-    h1 {
-      margin-top: -600px;
-      font-size: 40px;
+  h1 {
+    font-size: 40px;
+    top: 10%;
     }
+    
+  h2 {
+  font-size: 80px;
+  top: 22%;
+  }
 
-    h2 {
-      font-size: 90px;
-      margin-top: -25px;
-      padding-bottom: 310px;
-    }
+  .angebots-illustration {
+    width: 320px;
+  }
 
     h1.h1-uebermich {
       text-align: left; 
@@ -729,17 +635,15 @@ div.gallery-wrapper {
 
   }
 
-  @media (min-width: 1280px) {
-   
-    h1 {
-      margin-top: -700px;
-      font-size: 40px;
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 42px;
+    top: 10%;
     }
-
+    
     h2 {
-      font-size: 90px;
-      margin-top: -25px;
-      padding-bottom: 398px;
+    font-size: 90px;
+    top: 22%;
     }
 
     h1.h1-uebermich {
